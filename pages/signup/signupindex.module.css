@@ -1,0 +1,41 @@
+
+/* .sidenav{
+    position: fixed;
+    height: 100%;
+    width: 75px;
+    background-color: #8D74CC;
+    overflow-x: hidden;
+    z-index: 1;
+    padding-top: 10px;
+    top: 3.4em; 
+    margin: 0;
+    padding: 0;
+} */
+
+.index__section{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav{
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    background: #8D74CC;
+    left: 0;
+}
+
+.main{
+    background: yellow;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
