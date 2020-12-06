@@ -28,7 +28,7 @@ export class Signup extends Component {
               <List>
                 <ListItem className={style.features__section__item}>
                   <CheckCircleOutlinedIcon
-                    style={{ fill: "#78A6D6", width: "20px", height: "20px" }}
+                    style={{ fill: "#78A6D6", width: "30px", height: "30px", marginTop: "5%"}}
                   />
                   <p className={style.features__section__text}>
                     Fractional Ownership
@@ -36,7 +36,7 @@ export class Signup extends Component {
                 </ListItem>
                 <ListItem className={style.features__section__item}>
                   <CheckCircleOutlinedIcon
-                    style={{ fill: "#78A6D6", width: "20px", height: "20px" }}
+                    style={{fill: "#78A6D6", width: "30px", height: "30px", marginTop: "5%"}}
                   />
                   <p className={style.features__section__text}>
                     Peer to Peer Marketplace
@@ -44,7 +44,7 @@ export class Signup extends Component {
                 </ListItem>
                 <ListItem className={style.features__section__item}>
                   <CheckCircleOutlinedIcon
-                    style={{ fill: "#78A6D6", width: "20px", height: "20px" }}
+                    style={{ fill: "#78A6D6", width: "30px", height: "30px", marginTop: "5%" }}
                   />
                   <p className={style.features__section__text}>
                     Highly Secured
@@ -52,7 +52,7 @@ export class Signup extends Component {
                 </ListItem>
                 <ListItem className={style.features__section__item}>
                   <CheckCircleOutlinedIcon
-                    style={{ fill: "#78A6D6", width: "20px", height: "20px" }}
+                    style={{ fill: "#78A6D6", width: "30px", height: "30px", marginTop: "5%" }}
                   />
                   <p className={style.features__section__text}>
                     Powered By Smart Contracts

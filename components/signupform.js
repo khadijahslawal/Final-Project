@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Grid, TextField } from "@material-ui/core";
-import { useForm, Form } from "../components/useForm";
 import styles from "../components/signup.module.css";
 import { Button } from "@material-ui/core";
 import FormControlLabel from "@material-ui/core/FormControlLabel";

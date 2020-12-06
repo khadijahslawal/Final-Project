@@ -137,8 +137,10 @@
 }
 
 .features__section__text {
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-Bold";
   margin-left: 30px;
+  margin-top: 5%;
+  font-size: 1rem;
 }
 
 .form__section{
