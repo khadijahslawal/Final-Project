@@ -78,7 +78,11 @@
     height: 250px;
     border-radius: 16px;
     background-color: #ECEAF2;
-    animation: blinker 1s linear infinite;
+}
+
+.developer:hover{
+    border: 3px dotted #8D74CC;
+
 }
 
 .ownerFeatures{
@@ -103,6 +107,9 @@
     background-color: #ECEAF2;
 }
 
+.investor:hover{
+    border: 3px dotted #8D74CC;
+}
 .developerImage{
     margin-top: 6%;
     margin-left: 4%;

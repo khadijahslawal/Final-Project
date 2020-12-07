@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import  {Link} from "../../routes";
 import styles from "./signupindex.module.css";
 import displayImage from "../../public/images/walkicon.png";
 import investorIcon from "../../public/images/leasing.png";
 import developerIcon from "../../public/images/tenant.png";
+// import Link from "next/link";
 
-export class SignUpIndex extends Component {
-  render() {
+function SignUpIndex () {
     return (
       <div className={styles.index__section}>
         <div className={styles.sidenav}>
@@ -23,8 +24,10 @@ export class SignUpIndex extends Component {
           </div>
         </div>
         <div className={styles.main}>
+    
           <div className={styles.container_right}>
             <p className={styles.continue}>Continue as</p>
+            <Link route="/signup/developer">
             <div className={styles.developer}>
               <img src={developerIcon} className={styles.developerImage} />
               <div className={styles.ownerFeatures}>
@@ -39,7 +42,10 @@ export class SignUpIndex extends Component {
                 </p>
               </div>
             </div>
-
+            </Link>
+           </div>
+           <div className={styles.container_right}>
+           <Link route="/signup/other">
             <div className={styles.investor}>
               <img src={investorIcon} className={styles.developerImage} />
               <div className={styles.investorFeatures}>
@@ -51,11 +57,14 @@ export class SignUpIndex extends Component {
                 </p>
               </div>
             </div>
-          </div>
+            </Link>
+        </div>
         </div>
       </div>
     );
   }
-}
+
 
 export default SignUpIndex;
+
+

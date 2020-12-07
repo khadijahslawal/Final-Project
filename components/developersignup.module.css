@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../public/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../public/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Nuninto";
+  src: url("../public/Nunito-Regular.ttf");
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.form__section {
+  margin-top: 5rem;
+  height: 70vh;
+  padding: 0 3rem;
+}
+
+.business__info > div {
+  margin-bottom: 30px;
+}
+.business__info > h1 {
+  font-family: "Gilroy-Bold";
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.firstRow > input {
+  font-family: "Nuninto";
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  width: 15rem;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.5px solid #b7b7b7;
+}
+
+
+.secondRow > input {
+  font-family: "Nuninto";
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  width: 15rem;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.5px solid #b7b7b7;
+}
+.right__field {
+  margin-left: 10%;
+}
+.developer__info{
+  margin-top: 3rem;
+}
+
+.developer__info > h1 {
+  font-family: "Gilroy-Bold";
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.developer__input > input {
+  display: block;
+  margin-bottom: 30px;
+  font-family: "Nuninto";
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+  width: 25rem;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #b7b7b7;
+}
+
+.btnfullFld {
+  text-decoration: none;
+}
+.btnfullFld > button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: #8d74cc;
+  color: #000000;
+  font-family: "Gilroy-Bold";
+  text-transform: capitalize;
+  border: none;
+  margin-left: 75%;
+}
+
+.btnfullFld > button:hover {
+  border: 2px solid #8d74cc;
+  background: #fff;
+}

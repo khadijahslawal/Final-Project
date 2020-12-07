@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../public/Gilroy-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../public/Gilroy-Medium.ttf");
+  }
+
+  @font-face{
+      font-family: "Nuninto";
+      src: url("../public/Nunito-Regular.ttf");
+  }
+
+  .sidenav{
+    float: left;
+    width: 35%;
+    height: 100vh;
+    background: #8D74CC;
+    overflow: hidden;
+ 
+}
+
+.container_left{
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.headerName{
+    font-family: "Gilroy-Bold";
+    font-size: 2rem;
+}
+
+.headerCallOut{
+    font-family: "Gilroy-Bold";
+    font-size: 3rem;
+    text-align: start;
+    
+}
+
+.headerjoinmsg{
+    font-family: "Nunito";
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.headerImage{
+    margin-top: 8%;
+    margin-left: 20%;
+}
+

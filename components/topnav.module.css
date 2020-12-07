@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../public/Gilroy-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../public/Gilroy-Medium.ttf");
+  }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 2rem;
+    font-family: "Gilroy-Bold";
+    text-transform: capitalize;
+  }
+
+  .brandTitle{
+      margin: 2rem 0 0 3rem;
+  }
+
+  .help{
+    margin: 2rem 3rem 0 0;
+    font-family: "Gilroy-Medium";
+    font-size: 1rem;
+  }
+
+  .helpspan{
+      color: blueviolet;
+  }
