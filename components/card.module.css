@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../public/Gilroy-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../public/Gilroy-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Nuninto";
+    src: url("../public/Nunito-Regular.ttf");
+  }
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 15px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    width: 15rem;
+    height: 15rem;
+    background: #E0D7F8;
+    /* text-align: center; */
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+  }
+
+  .imagecontainer{
+      text-align: center;
+      margin-top: 30px;
+  }
+
+  .ticker{
+      text-align: center;
+  }
+
+  .metrics{
+      display: flex;
+      padding: 2rem;
+      justify-content: space-around;
+  }
+
+  .metric > p{
+    font-family: "Nuninto";
+    font-size: 1 rem;
+  }

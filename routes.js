@@ -6,4 +6,5 @@ routes.add("/signup/developer", "signup/developer");
 routes.add("/signup/other", "signup/other");
 routes.add("/welcome", "/signup/welcome");
 routes.add("/home", "/home/index");
+routes.add("/properties/address", "/properties/show");
 module.exports = routes;

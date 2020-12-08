@@ -1,0 +1,42 @@
+/* 
+.main{
+    width: 100%;
+}
+.maincontent{
+    padding: 0 10%;
+    height: 100vh;
+} */
+
+.main{
+  margin: 5% 10%  0% 10%;
+}
+.home_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action__buttons {
+  margin: 50px 15px 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  height: 20px;
+}
+
+.action__buttons > button {
+  background-color: #8D74CC;
+  color: #000;
+  text-transform: inherit;
+  font-weight: 600;
+  margin: 30px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+}
+
+.action__buttons > button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #8D74CC;
+}
