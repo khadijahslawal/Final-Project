@@ -2,8 +2,18 @@ import React, { Component } from "react";
 import Header from "../../components/topnav";
 import styles from "../../components/welcomesignup.module.css";
 import displayImage from "../../public/images/ethwalk.png";
+import { Link, Router } from "../../routes";
 
 export class Welcome extends Component {
+  state = {
+    loading: false,
+  };
+
+  onSubmit = async (event) => {
+    event.preventDefault();
+    this.setState({ loading: true });
+    Router.pushRoute(`/home`);
+  };
   render() {
     return (
       <div>
@@ -16,7 +26,7 @@ export class Welcome extends Component {
             </h1>
             <p className={styles.paragraphmsg}>You will recieve a confirmation shortly</p>
             <div className={styles.btnfullFld}>
-              <button>Go to homepage</button>
+              <button onClick={this.onSubmit}>Go to homepage</button>
             </div>
           </div>
           <div className={styles.container__right}>

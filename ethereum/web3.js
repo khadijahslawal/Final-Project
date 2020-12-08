@@ -10,7 +10,7 @@ if (typeof window !== "undefined" && typeof window.web3 !== "undefined") {
 } else {
   // we are on server or user is not running Metamask
   const provider = new Web3.providers.HttpProvider(
-    "https://rinkeby.infura.io/v3/29c6c6e93eec414398617bc7e59444f4"
+    "https://rinkeby.infura.io/v3/90b82c404d624db68e03414d15a35e37"
   );
   web3 = new Web3(provider);
 }

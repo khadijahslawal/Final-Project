@@ -2,14 +2,23 @@ import React, { Component } from "react";
 import "react-step-progress/dist/index.css";
 import styles from "../../components/developersignup.module.css";
 import SideNav from "../../components/sidenav";
-import { Button } from "@material-ui/core";
+import { Link, Router } from "../../routes";
 
 export class developerSignUp extends Component {
+  state = {
+    loading: false,
+  };
+
+  onSubmit = async (event) => {
+    event.preventDefault();
+    this.setState({ loading: true });
+    Router.pushRoute(`/welcome`);
+  };
   render() {
     return (
       <div className={styles.main}>
         <SideNav />
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={this.onSubmit}>
           <div className={styles.form__section}>
             <div className={styles.business__info}>
               <h1>Business Details</h1>

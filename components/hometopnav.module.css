@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../public/Gilroy-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../public/Gilroy-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Nuninto";
+    src: url("../public/Nunito-Regular.ttf");
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .brandTitle{
+    margin: 2rem 0 0 3rem;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+
+  .navcomponent{
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .navname{
+      margin-left: 1rem;
+      font-family: "Nuninto";
+      font-size: 1.5rem;
+  }

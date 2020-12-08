@@ -4,7 +4,8 @@ const compiledFactory = require("./build/PropertyFactory.json");
 
 const provider = new HDWalletProvider(
   "rug wage cricket oven engine cart still emerge distance rubber switch current",
-  "https://rinkeby.infura.io/v3/29c6c6e93eec414398617bc7e59444f4"
+  // "https://rinkeby.infura.io/v3/29c6c6e93eec414398617bc7e59444f4"
+  "https://rinkeby.infura.io/v3/90b82c404d624db68e03414d15a35e37"
 );
 
 const web3 = new Web3(provider);
